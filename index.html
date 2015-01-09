@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en" ng-app></html>
 <head>
   <title>HelloGuys</title>
   <link rel="stylesheet" href="dist/css/all.min.css">
   <link rel="stylesheet" href="dist/css/bootstrap.min.css">
 </head>
 <body>
-  <h1>Front-End Watcher</h1>
-  <p>
-    Lorem ipsum dolor sit amet,
-    consectetur adipisicing elit. Omnis, culpa?
-  </p>
-  <div class="box"></div>
-  <ul class="tabs">
-    <li>first</li>
-    <li>second</li>
-    <li>third</li>
-    <li>forth</li>
-    <li>fifth</li>
-  </ul>
+  <div class="container">
+    <h1>Front-End Watcher</h1>
+    <p>
+      Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit. Omnis, culpa?
+    </p>
+    <div class="box"></div>
+    <ul class="tabs">
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+      <li>forth</li>
+      <li>fifth</li>
+      <div class="clearfix"></div>
+    </ul>
+    <input type="text" ng-model="name">
+    <p>{{ name }}</p>
+  </div>
   <script src="dist/js/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/angular.min.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
   <script src="dist/js/all.min.js"></script>
 </body>

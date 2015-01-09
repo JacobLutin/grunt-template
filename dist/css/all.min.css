@@ -1,3 +1,3 @@
 /* Created by Jacob Lutin | 2014 */
 
-.box{width:100px;height:100px;background-color:red;margin:50px;border:6px solid #000}.tabs li{list-style:none;float:left;padding:5px 10px;border:2px solid #666;margin:5px}.tabs li.active{color:#fff;background-color:#228}
+.box{width:100px;height:100px;background-color:green;margin:50px;border:6px solid #000}.tabs li{list-style:none;float:left;padding:5px 10px;border:2px solid #666;margin:5px}.tabs li.active{color:#fff;background-color:#228}.clearfix{clear:both}

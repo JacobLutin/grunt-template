@@ -1,3 +1,4 @@
+
 var a, obj;
 
 obj = {
@@ -27,6 +28,7 @@ $(function() {
     $(this).toggleClass('active');
     num = $(this).html();
     return $('.box').html(num);
+    console.log('pidor!');
   };
   return $('.tabs li').click(changeTab);
 });
